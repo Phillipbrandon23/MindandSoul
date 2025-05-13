@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Heavy Halos | Burdened but Still Blessed</title>
+    <style>
+        /* Interactive Halo Animation */
+        .halo-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .halo-image {
+            width: 150px;
+            height: auto;
+            animation: rotateHalo 5s linear infinite;
+        }
+
+        @keyframes rotateHalo {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+    <a href="#hero">Home</a>
+    <a href="#collections">Collections</a>
+    <a href="#mind-soul">Mind & Soul</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<!-- Hero Banner -->
+<div id="hero" class="hero-banner">
+    <div class="overlay">
+        <h1 class="brand-title">Heavy Halos</h1>
+        <p class="tagline">Burdened but Still Blessed</p>
+    </div>
+    <img src="assets/hero-banner.png" alt="Hero Banner" class="full-width-banner">
+</div>
+
+<!-- Collections Section -->
+<section id="collections">
+    <h2 class="section-title">Collections</h2>
+    <div class="collection-grid">
+        <div class="collection-item">
+            <img src="assets/burdened-but-blessed.png" alt="Burdened but Blessed">
+            <button class="shop-now">Shop Now</button>
+        </div>
+        <div class="collection-item">
+            <img src="assets/heavy-halos.png" alt="Heavy Halos">
+            <button class="shop-now">Shop Now</button>
+        </div>
+        <div class="collection-item">
+            <img src="assets/still-rise.png" alt="Still Rise">
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- Interactive Halo Section -->
+<div class="halo-container">
+    <img src="assets/white-halo.png" alt="Interactive White Halo" class="halo-image">
+</div>
+
+<!-- Mind & Soul Section -->
+<section id="mind-soul" class="mind-soul-banner">
+    <img src="assets/mind-soul-banner.png" alt="Mind & Soul Banner" class="full-width-banner">
+    <div class="mind-soul-content">
+        <h2>Your Mind Matters. Your Soul is Powerful.</h2>
+        <p>Explore resources and inspiration for mental health and empowerment.</p>
+        <a href="https://mentalhealth.gov" target="_blank" class="cta-link">Learn More</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>Heavy Halos &copy; 2025 - Burdened but Still Blessed | At Your Worst, Still Rise</p>
+    <div class="footer-logo">
+        <img src="assets/footer-logo.png" alt="Heavy Halos Logo" class="footer-logo-img">
+    </div>
+</footer>
+
+</body>
+</html>
